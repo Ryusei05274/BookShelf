@@ -1,4 +1,4 @@
-```mermaid
+mermaid
 flowchart TD
     Books[書籍一覧] --> Detail[書籍詳細]
     Books -->|共通ナビ・未ログイン時| Register[会員登録画面]
