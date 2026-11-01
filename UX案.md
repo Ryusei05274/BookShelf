@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     Books[書籍一覧] --> Detail[書籍詳細]
     Books -->|共通ナビ・未ログイン時| Register[会員登録画面]
@@ -33,3 +34,4 @@ flowchart TD
     GenreBooks --> Detail
     Genres --> GenreForm[ジャンル登録・編集]
     GenreForm -->|保存成功・キャンセル| Genres
+    ```
